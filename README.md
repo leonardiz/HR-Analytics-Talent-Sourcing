@@ -2,19 +2,21 @@ MY FIRST OFFICIAL DATA ANALYTICS PROJECT
 
 HR ANALYTICS: TALENT SOURCING AND RECRUITMENT STRATEGIES DATA ANALYSIS REPORT
 
-MAIN OBJECTIVE:
+Executive Summary:
 
-The main objective of this project is to optimize talent sourcing and recruitment strategies by leveraging a data-driven approach. Through analysis of the Talent sourcing/HR dataset, the goal is to identify patterns, draw insights, and formulate informed recommendations that enhance the efficiency of candidate selection processes.
+This report outlines a comprehensive analysis of talent sourcing and recruitment strategies for 10Alytics, an Ed-Tech company. The goal is to optimize processes through data-driven insights, providing recommendations for enhanced efficiency in candidate selection.
 
-DATA OVERVIEW: 
+Project Overview:
+Objective: Optimize talent sourcing and recruitment strategies.
 
+Data Source: 
 For this particular project, the source of my data was from 10Alytics an Ed-Tech company dedicated to building data and tech consciousness by providing premium tech skills to Africans and people of the Black community. 
 
 DATASET DETAILS:
 
 Fields: Employee ID, Source of Hire, Date of Hire, Position/Role, Department, Performance Score, Number of Promotions, Tenure, Reason for Leaving, Training Programs Attended, Employee Satisfaction Score, Peer Review Score, Salary Bracket, Employee Referrals, Mentorship Participation, Educational Background, Alma Mater, Skills/Certifications, Previous Employer, Industry Experience.
 
-DIMENSIONS: 20 columns, 1002 rows.
+Dataset Details: 20 columns, 1002 rows.
 
 KEY QUESTIONS TO ANSWER
 
@@ -36,15 +38,11 @@ KEY QUESTIONS TO ANSWER
 16. Do employees from specific previous employers demonstrate higher performance?
 
 
-TOOLS USED: EXCEL AND TABLEAU (PRIMARILY TABLEAU)
-
-APPROACH USED
-
 DATA CLEANING AND PREPARATION: 
 
-No duplicates were discovered after checking. The "Reason for Leaving" column was removed because it contained empty cells, making it useless.
-I introduced a new column called "YEAR" to calculate the "average promotion rate" and the "employee promotion rate per year." I accomplished this by using the Excel function "=TEXT([@[Date of Hire]], "YYYY")" to extract the year from the "date of hire" column.
-
+Duplicates: No duplicates found.
+Column Removal: The "Reason for Leaving" column was removed due to empty cells.
+New Column: Introduced "YEAR" for promotion rate calculation.
 
 DATA ANALYSIS INSIGHTS
 
@@ -159,6 +157,10 @@ Enhanced employer brand through academic partnerships.
 Anticipated Outcomes:
 Strengthened skillsets aligned with industry trends.
 Enhanced project adaptability and efficiency.
+
+Tools Used:
+Excel (Data Cleaning)
+Tableau (Primary for Preparation and Visualization)
 
 LINK TO DASHBOARDS: http://tinyurl.com/HR-Analytics-Talent
 
