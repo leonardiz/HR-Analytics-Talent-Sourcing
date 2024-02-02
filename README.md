@@ -160,7 +160,7 @@ Enhanced project adaptability and efficiency.
 
 Tools Used:
 Excel (Data Cleaning)
-Tableau (Primary for Preparation and Visualization)
+Tableau (Primary for Data Preparation and Visualization)
 
 LINK TO DASHBOARDS: http://tinyurl.com/HR-Analytics-Talent
 
